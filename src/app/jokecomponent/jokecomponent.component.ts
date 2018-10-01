@@ -1,13 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,AfterViewInit} from '@angular/core';
 
 @Component({
   selector: 'app-jokecomponent',
   templateUrl: './jokecomponent.component.html',
   styleUrls: ['./jokecomponent.component.css']
 })
-export class JokecomponentComponent implements OnInit {
+export class JokecomponentComponent implements OnInit,AfterViewInit {
 
-  title ="joker";
+  title ="joker1";
+
+   name="sahir";
   constructor() { }
 
   ngOnInit() {
