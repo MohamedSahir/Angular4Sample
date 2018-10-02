@@ -10,6 +10,7 @@ export class JokecomponentComponent implements OnInit,AfterViewInit {
   title ="tester component";
  rows=[];
    name="test component" ;
+   gridcomponent =[];
   constructor() { }
 
   ngOnInit() {
