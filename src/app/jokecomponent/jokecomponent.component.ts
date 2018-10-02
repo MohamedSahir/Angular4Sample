@@ -8,8 +8,9 @@ import { Component, OnInit,AfterViewInit} from '@angular/core';
 export class JokecomponentComponent implements OnInit,AfterViewInit {
 
   title ="tester component";
-grid=[];
-   name="testercomponent";
+ rows=[];
+   name="test component" ;
+   gridcomponent =[];
   constructor() { }
 
   ngOnInit() {
